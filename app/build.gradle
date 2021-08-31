@@ -1,0 +1,13 @@
+plugins {
+    id 'com.android.application'
+}
+
+apply from: '../common-build.gradle'
+
+android {
+    defaultConfig {
+        applicationId "com.paul.wang.androidstartersingleapp"
+        versionCode 1
+        versionName "0.0"
+    }
+}
